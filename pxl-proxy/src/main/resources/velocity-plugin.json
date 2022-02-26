@@ -1,0 +1,10 @@
+{
+  "id": "pxl_api",
+  "name": "PXL-API",
+  "version": "1.0.0",
+  "description": "PXL-API",
+  "authors": [
+    "Chaoten"
+  ],
+  "main": "net.pxlgames.proxy.VelocityInitializer"
+}
