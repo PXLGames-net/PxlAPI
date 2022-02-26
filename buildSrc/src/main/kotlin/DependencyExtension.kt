@@ -35,7 +35,7 @@ fun getCommitHash(): String = try {
 object Properties {
 
     @JvmStatic
-    val group = "net.neverstopgaming"
+    val group = "net.pxlgames"
 
     @JvmStatic
     val version = "1.0.0-SNAPSHOT"
@@ -70,10 +70,10 @@ object Properties {
             )
             it["database"] = mutableMapOf(
                 "mongo" to "org.mongodb:mongodb-driver-sync:4.3.0",
-                "redis" to "io.lettuce:lettuce-core:6.1.0.RELEASE"
+                "redis" to "com.redis:lettucemod:2.15.4"
             )
             it["minecraft"] = mutableMapOf(
-                "bukkit" to "com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT",
+                "bukkit" to "org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT",
                 "velocity" to "com.velocitypowered:velocity-api:3.0.1"
             )
             it["simplecloud"] = mutableMapOf(

@@ -1,0 +1,4 @@
+main: net.pxlgames.server.SpigotInitializer
+name: PXL-API
+author: Chaoten
+version: 1.0.0
